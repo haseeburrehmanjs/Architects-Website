@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Logo from '@/app/Assets/Images/Logo.png'
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
@@ -11,12 +12,12 @@ const Navbar = () => {
                 <Image src={Logo} alt='logoImage'/>
             </div>
             <div>
-                <ul className='flex gap-10'>
-                    <li className=''>MAIN</li>
-                    <li>GALLERY</li>
-                    <li>PROJECTS</li>
-                    <li>CERTIFICATION</li>
-                    <li>CONTACT</li>
+                <ul className='hidden sm:flex gap-10 px-6'>
+                    <li className='hover:border-b-2 hover:border-black border-b-2 border-white border-t-2 hover:border-t-2'><Link href={'/'}>MAIN</Link></li>
+                    <li className='hover:border-b-2 hover:border-black border-b-2 border-white border-t-2 hover:border-t-2'><Link href={'/'}>GALLERY</Link></li>
+                    <li className='hover:border-b-2 hover:border-black border-b-2 border-white border-t-2 hover:border-t-2'><Link href={'/'}>PROJECTS</Link></li>
+                    <li className='hover:border-b-2 hover:border-black border-b-2 border-white border-t-2 hover:border-t-2'><Link href={'/'}>CERTIFICATIONS</Link></li>
+                    <li className='hover:border-b-2 hover:border-black border-b-2 border-white border-t-2 hover:border-t-2'><Link href={'/'}>CONTACTS</Link></li>
                 </ul>
             </div>
         </nav>
