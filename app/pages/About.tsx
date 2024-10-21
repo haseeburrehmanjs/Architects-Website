@@ -8,7 +8,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 const About = () => {
     return (
         <section className="container mx-auto p-4 mt-10">
-            <div className='bg-[#FBFBFB] p-10 flex gap-16 flex-wrap'>
+            <div className='bg-[#FBFBFB] p-10 flex gap-8 flex-wrap'>
                 <div className='gap-3 flex-wrap flex'>
                     <div className='flex flex-col gap-3 hidden sm:flex'>
                         <Image width={270} height={265} src={img1} alt='img1' />
@@ -18,7 +18,7 @@ const About = () => {
                 </div>
                 <div>
                     <h1 className='text-[65px] text-gray-400'>About</h1>
-                    <p className='text-[18px] text-gray-600'>Lorem Ipsum is simply dummy text of the printing and <br /> typesetting industry. Lorem Ipsum has been the industry's <br /> standard dummy text ever since the 1500s,<br /> when an unknown printer took a galley of type and <br /> scrambled it to make a type specimen book. It has <br /> survived not only five centuries, but also the leap into <br />electronic typesetting, remaining essentially unchanged.</p>
+                    <p className='text-[22px] text-gray-600'>Lorem Ipsum is simply dummy text of the printing and <br /> typesetting industry. Lorem Ipsum has been the industry's <br /> standard dummy text ever since the 1500s,<br /> when an unknown printer took a galley of type and <br /> scrambled it to make a type specimen book. It has <br /> survived not only five centuries, but also the leap into <br />electronic typesetting, remaining essentially unchanged.</p>
                     <button className='px-10 py-4 flex gap-2 items-center bg-white mt-5 hover:bg-gray-400'>Read More <FaLongArrowAltRight/></button>
                 </div>
             </div>
