@@ -19,9 +19,9 @@ import { FaPinterestP } from "react-icons/fa";
 const Footer = () => {
     return (
         <section className='bg-[#2c2c2c] w-[100%] p-16 mt-10'>
-            <div className='flex justify-between'>
+            <div className='flex justify-between flex-wrap gap-10'>
                 <div>
-                    <Image src={FooterLogo} alt='footerLogo' />
+                    <Image className='sm:w-[100px] w-[200px]' src={FooterLogo} alt='footerLogo' />
                 </div>
                 <div>
                     <ul className='text-white text-[18px] leading-[45px]'>
