@@ -4,7 +4,7 @@ const MissionStateMent = () => {
     return (
         <section className='container mx-auto p-4 mt-20'>
             <div>
-                <h1 className='text-6xl text-gray-400 sm:text-left text-center'>Main Focus/Mission Statement</h1>
+                <h1 className='sm:text-6xl text-5xl text-gray-400 sm:text-left text-center'>Main Focus/Mission Statement</h1>
                 <div className='flex justify-between flex-wrap'>
                     <div className='flex gap-5 items-center '>
                         <h1 className='text-[200px] font-bold text-gray-200'>1</h1>
