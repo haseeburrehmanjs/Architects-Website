@@ -12,13 +12,13 @@ const Project = () => {
         <section className='container mx-auto p-4 mt-10'>
             <h1 className='text-6xl text-gray-400'>Our Projects</h1>
             <div className='mt-10'>
-                <div className='flex justify-between flex-wrap'>
+                <div className='hidden sm:flex justify-between flex-wrap'>
                     <Image width={620} src={box1} alt='box1' />
                     <Image width={620} src={box2} alt='box1' />
                 </div>
                 <div className='flex justify-between mt-2 flex-wrap'>
-                    <Image width={350} src={box3} alt='box1' />
-                    <Image width={510} src={box4} alt='box1' />
+                    <Image className='hidden sm:flex' width={350} src={box3} alt='box1' />
+                    <Image className='hidden sm:flex' width={510} src={box4} alt='box1' />
                     <Image src={box5} alt='box1' />
                 </div>
             </div>
