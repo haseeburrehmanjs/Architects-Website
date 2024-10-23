@@ -9,7 +9,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Project = () => {
     return (
-        <section className='container mx-auto p-4'>
+        <section className='container mx-auto p-4 mt-10'>
             <h1 className='text-6xl text-gray-400'>Our Projects</h1>
             <div className='mt-10'>
                 <div className='flex justify-between flex-wrap'>

@@ -10,7 +10,7 @@ const About = () => {
         <section className="container mx-auto p-4 mt-10">
             <div className='bg-[#FBFBFB] p-10 flex gap-8 flex-wrap'>
                 <div className='gap-3 flex-wrap flex'>
-                    <div className='flex flex-col gap-3 hidden sm:flex'>
+                    <div className='flex-col gap-3 hidden sm:flex'>
                         <Image width={270} height={265} src={img1} alt='img1' />
                         <Image width={270} height={140} src={img3} alt='img3' />
                     </div>

@@ -6,17 +6,17 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 const Contactus = () => {
     return (
         <section className='container mx-auto p-4 mt-16'>
-            <div className='flex justify-between items-center'>
+            <div className='flex justify-between items-center flex-wrap'>
                 <div>
                     <form className='flex flex-col gap-4'>
-                        <input className='w-[391px] h-[46px] bg-[#F3F3F3] pl-4' type="text" placeholder='Name' />
-                        <input className='w-[391px] h-[46px] bg-[#F3F3F3] pl-4' type="text" placeholder='Phone' />
-                        <input className='w-[391px] h-[46px] bg-[#F3F3F3] pl-4' type="text" placeholder='E-mail' />
-                        <input className='w-[391px] h-[46px] bg-[#F3F3F3] pl-4' type="text" placeholder='Interested In' />
-                        <input className='w-[391px] h-[138px] text-start bg-[#F3F3F3] pl-4' type="text" placeholder='Message*' />
+                        <input className='sm:w-[391px] w-[385px] h-[46px] bg-[#F3F3F3] pl-4' type="text" placeholder='Name' />
+                        <input className='sm:w-[391px] w-[385px] h-[46px] bg-[#F3F3F3] pl-4' type="text" placeholder='Phone' />
+                        <input className='sm:w-[391px] w-[385px] h-[46px] bg-[#F3F3F3] pl-4' type="text" placeholder='E-mail' />
+                        <input className='sm:w-[391px] w-[385px] h-[46px] bg-[#F3F3F3] pl-4' type="text" placeholder='Interested In' />
+                        <input className='sm:w-[391px] w-[385px] h-[138px] text-start bg-[#F3F3F3] pl-4' type="text" placeholder='Message*' />
                     </form>
                 </div>
-                <div>
+                <div className='sm:mt-0 mt-4'>
                     <Image width={800} src={ContactImg} alt='contactus' />
                 </div>
             </div>
