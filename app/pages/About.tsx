@@ -19,7 +19,7 @@ const About = () => {
                 <div>
                     <h1 className='text-[65px] text-gray-400'>About</h1>
                     <p className='text-[22px] text-gray-600'>Lorem Ipsum is simply dummy text of the printing and <br /> typesetting industry. Lorem Ipsum has been the industry's <br /> standard dummy text ever since the 1500s,<br /> when an unknown printer took a galley of type and <br /> scrambled it to make a type specimen book. It has <br /> survived not only five centuries, but also the leap into <br />electronic typesetting, remaining essentially unchanged.</p>
-                    <button className='btn py-3 px-8 mt-5 bg-gray-900 text-white text-[14px] hover:bg-gray-400 hover:text-black flex gap-2 items-center'>ALL PROJECT <FaLongArrowAltRight/></button>
+                    <button className='btn py-3 px-8 mt-5 bg-gray-900 text-white text-[14px] hover:bg-gray-400 hover:text-black flex gap-2 items-center'>READ MORE <FaLongArrowAltRight/></button>
                 </div>
             </div>
         </section>

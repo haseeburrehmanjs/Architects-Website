@@ -15,12 +15,12 @@ const SingalProject = () => {
           <div>
             <Image className='w-[100%]' src={Singalimg1} alt='singalproject' />
           </div>
-          <div className='flex gap-10 flex-wrap-reverse'>
+          <div className='flex gap-8 flex-wrap'>
             <div>
               <Image src={Singalimg2} alt='singalproject' />
             </div>
-            <div className='w-[900px]'>
-              <p>
+            <div className='w-[790px]'>
+              <p className='leading-[27px]'>
                 Lorem Ipsum is simply dummy text of the printing and br typesetting industry. Lorem Ipsum has been the br industry's standard dummy text ever since the 1500s, br when an unknown printer took a galley of type and br scrambled it to make a type specimen book. It has br survived not only five centuries, but also the leap br into electronic typesetting, remaining essentially br unchanged. It was popularised in the 1960s with the br release of Letraset sheets containing Lorem Ipsum br passages, and more recently with desktop publishing br software like Aldus PageMaker including versions of br Lorem Ipsum. Lorem Ipsum is simply dummy text of thebr  printing and typesetting industry. Lorem Ipsum has beenbr  the industry's standard dummy text ever since the br 1500s, when an unknown printer took a galley of type br and scrambled it to make a type specimen book. It has br survived not only five centuries, but also the leap br into electronic typesetting, remaining essentially br unchanged. It was popularised in the 1960s with the br release of Letraset sheets containing Lorem Ipsum br passages, and more recently with desktop publishing br software like Aldus PageMaker including versions of br Lorem Ipsum. Lorem Ipsum is simply dummy text of the br printing and typesetting industry. Lorem Ipsum has beenbr  the industry's standard dummy text ever since the br 1500s, when an unknown printer took a galley of type br and scrambled it to make a type specimen book. It has br survived not only five centuries, but also the leap into electronic typesetting, remaining essentially br unchanged. It was popularised in the 1960s with the br release of Letraset sheets containing Lorem Ipsum br passages, and more recently with.
               </p>
             </div>

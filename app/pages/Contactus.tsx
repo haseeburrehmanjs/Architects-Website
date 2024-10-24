@@ -21,7 +21,7 @@ const Contactus = () => {
                 </div>
             </div>
             <div>
-                <button className='btn py-3 px-8 mt-10 bg-gray-900 text-white text-[14px] hover:bg-gray-400 hover:text-black flex gap-2 items-center'>ALL PROJECT <FaLongArrowAltRight /></button>
+                <button className='btn py-3 px-8 mt-10 bg-gray-900 text-white text-[14px] hover:bg-gray-400 hover:text-black flex gap-2 items-center'>SEND EMAIL <FaLongArrowAltRight /></button>
             </div>
         </section>
     )
