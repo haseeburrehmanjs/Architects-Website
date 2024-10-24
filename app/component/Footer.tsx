@@ -41,7 +41,7 @@ const Footer = () => {
                             Austin Texas 78704</Link></li>
                         <li><Link className='flex gap-2 items-center' href={'/'}><FiPhone />
                             512.333.2222</Link></li>
-                        <li><Link className='flex items-center gap-2' href={'/'}><MdOutlineMail />sampleemail@gmail.com</Link></li>
+                        <li><Link className='flex items-center gap-2' href={'/'}><MdOutlineMail />haseeburrehmanjs@gmail.com</Link></li>
 
                     </ul>
                 </div>
@@ -57,6 +57,11 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
+            <div>
+            
+            </div>
+            <hr className='text-white mt-5'/>
+            <h1 className='text-center mt-2 text-gray-100'>© 2021 All Rights Reserved By Haseeb Ur Rehman</h1>
         </section>
     )
 }
