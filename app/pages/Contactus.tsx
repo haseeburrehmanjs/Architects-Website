@@ -9,11 +9,11 @@ const Contactus = () => {
             <div className='flex justify-between items-center flex-wrap'>
                 <div>
                     <form className='flex flex-col gap-4'>
-                        <input className='sm:w-[391px] w-[310px] h-[46px] bg-[#F3F3F3] pl-4' type="text" placeholder='Name' />
-                        <input className='sm:w-[391px] w-[310px] h-[46px] bg-[#F3F3F3] pl-4' type="text" placeholder='Phone' />
-                        <input className='sm:w-[391px] w-[310px] h-[46px] bg-[#F3F3F3] pl-4' type="text" placeholder='E-mail' />
-                        <input className='sm:w-[391px] w-[310px] h-[46px] bg-[#F3F3F3] pl-4' type="text" placeholder='Interested In' />
-                        <input className='sm:w-[391px] w-[310px] h-[138px] text-start bg-[#F3F3F3] pl-4' type="text" placeholder='Message*' />
+                        <input className='sm:w-[391px] w-[315px] h-[46px] bg-[#F3F3F3] pl-4' type="text" placeholder='Name' />
+                        <input className='sm:w-[391px] w-[315px] h-[46px] bg-[#F3F3F3] pl-4' type="text" placeholder='Phone' />
+                        <input className='sm:w-[391px] w-[315px] h-[46px] bg-[#F3F3F3] pl-4' type="text" placeholder='E-mail' />
+                        <input className='sm:w-[391px] w-[315px] h-[46px] bg-[#F3F3F3] pl-4' type="text" placeholder='Interested In' />
+                        <input className='sm:w-[391px] w-[315px] h-[138px] text-start bg-[#F3F3F3] pl-4' type="text" placeholder='Message*' />
                     </form>
                 </div>
                 <div className='sm:mt-0 mt-4'>
