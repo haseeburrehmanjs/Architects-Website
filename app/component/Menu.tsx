@@ -21,7 +21,7 @@ export default function MenuPopupState() {
                         <MenuItem onClick={popupState.close}><Link href={'/'}>MAIN</Link></MenuItem>
                         <MenuItem onClick={popupState.close}><Link href={'/gallery'}>GALLERY</Link></MenuItem>
                         <MenuItem onClick={popupState.close}><Link href={'/projects'}>PROJECTS</Link></MenuItem>
-                        <MenuItem onClick={popupState.close}><Link href={'/'}>CONTACTS</Link></MenuItem>
+                        <MenuItem onClick={popupState.close}><Link href={'/contact'}>CONTACTS</Link></MenuItem>
                     </Menu>
                 </React.Fragment>
             )}
