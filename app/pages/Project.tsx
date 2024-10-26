@@ -6,6 +6,7 @@ import box4 from '@/app/Assets/Images/box4.png'
 import box5 from '@/app/Assets/Images/box5.png'
 import Image from 'next/image'
 import { FaLongArrowAltRight } from "react-icons/fa";
+import Link from 'next/link'
 
 const Project = () => {
     return (
@@ -23,7 +24,9 @@ const Project = () => {
                 </div>
             </div>
             <div className='flex justify-end mt-5'>
-            <button className='btn py-3 px-8 mt-5 bg-gray-900 text-white text-[14px] hover:bg-gray-400 hover:text-black flex gap-2 items-center'>ALL PROJECT <FaLongArrowAltRight/></button>
+                <Link href={'/projects'}>
+                    <button className='btn py-3 px-8 mt-5 bg-gray-900 text-white text-[14px] hover:bg-gray-400 hover:text-black flex gap-2 items-center'>ALL PROJECT <FaLongArrowAltRight /></button>
+                </Link>
             </div>
         </section>
     )

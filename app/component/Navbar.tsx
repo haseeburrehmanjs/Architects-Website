@@ -17,8 +17,7 @@ const Navbar = () => {
               <li className='hover:border-b-2 hover:border-black border-b-2  border-white border-t-2 hover:border-t-2 '><Link href={'/'}>MAIN</Link></li>
               <li className='hover:border-b-2 hover:border-black border-b-2 border-white border-t-2 hover:border-t-2'><Link href={'/gallery'}>GALLERY</Link></li>
               <li className='hover:border-b-2 hover:border-black border-b-2 border-white border-t-2 hover:border-t-2'><Link href={'/projects'}>PROJECTS</Link></li>
-              <li className='hover:border-b-2 hover:border-black border-b-2 border-white border-t-2 hover:border-t-2'><Link href={'/'}>CERTIFICATIONS</Link></li>
-              <li className='hover:border-b-2 hover:border-black border-b-2 border-white border-t-2 hover:border-t-2'><Link href={'/'}>CONTACTS</Link></li>
+              <li className='hover:border-b-2 hover:border-black border-b-2 border-white border-t-2 hover:border-t-2'><Link href={'/contact'}>CONTACTS</Link></li>
             </ul>
           </div>
           <div className='sm:hidden flex'>
